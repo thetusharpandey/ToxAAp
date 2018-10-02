@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA966735208E0B470085193E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA966734208E0B470085193E /* AppDelegate.swift */; };
+		CA966737208E0B470085193E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA966736208E0B470085193E /* ViewController.swift */; };
+		CA96673A208E0B470085193E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA966738208E0B470085193E /* Main.storyboard */; };
+		CA96673D208E0B470085193E /* Cyphier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA96673B208E0B470085193E /* Cyphier.xcdatamodeld */; };
+		CA96673F208E0B480085193E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA96673E208E0B480085193E /* Assets.xcassets */; };
+		CA966742208E0B480085193E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA966740208E0B480085193E /* LaunchScreen.storyboard */; };
+		CA96674D208E0B480085193E /* CyphierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96674C208E0B480085193E /* CyphierTests.swift */; };
+		CA966758208E0B480085193E /* CyphierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA966757208E0B480085193E /* CyphierUITests.swift */; };
+		CA966768208E0E600085193E /* computing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA966766208E0E600085193E /* computing.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA966749208E0B480085193E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA966729208E0B460085193E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA966730208E0B470085193E;
+			remoteInfo = Cyphier;
+		};
+		CA966754208E0B480085193E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA966729208E0B460085193E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA966730208E0B470085193E;
+			remoteInfo = Cyphier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA966731208E0B470085193E /* Cyphier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyphier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA966734208E0B470085193E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA966736208E0B470085193E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA966739208E0B470085193E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA96673C208E0B470085193E /* Cyphier.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cyphier.xcdatamodel; sourceTree = "<group>"; };
+		CA96673E208E0B480085193E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA966741208E0B480085193E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA966743208E0B480085193E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA966748208E0B480085193E /* CyphierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyphierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA96674C208E0B480085193E /* CyphierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyphierTests.swift; sourceTree = "<group>"; };
+		CA96674E208E0B480085193E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA966753208E0B480085193E /* CyphierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyphierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA966757208E0B480085193E /* CyphierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyphierUITests.swift; sourceTree = "<group>"; };
+		CA966759208E0B480085193E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA966765208E0E600085193E /* Cyphier-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cyphier-Bridging-Header.h"; sourceTree = "<group>"; };
+		CA966766208E0E600085193E /* computing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = computing.cpp; sourceTree = "<group>"; };
+		CA966767208E0E600085193E /* computing.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = computing.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA96672E208E0B470085193E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA966745208E0B480085193E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA966750208E0B480085193E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA966728208E0B460085193E = {
+			isa = PBXGroup;
+			children = (
+				CA966733208E0B470085193E /* Cyphier */,
+				CA96674B208E0B480085193E /* CyphierTests */,
+				CA966756208E0B480085193E /* CyphierUITests */,
+				CA966732208E0B470085193E /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		CA966732208E0B470085193E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA966731208E0B470085193E /* Cyphier.app */,
+				CA966748208E0B480085193E /* CyphierTests.xctest */,
+				CA966753208E0B480085193E /* CyphierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA966733208E0B470085193E /* Cyphier */ = {
+			isa = PBXGroup;
+			children = (
+				CA966734208E0B470085193E /* AppDelegate.swift */,
+				CA966736208E0B470085193E /* ViewController.swift */,
+				CA966738208E0B470085193E /* Main.storyboard */,
+				CA96673E208E0B480085193E /* Assets.xcassets */,
+				CA966766208E0E600085193E /* computing.cpp */,
+				CA966767208E0E600085193E /* computing.hpp */,
+				CA966740208E0B480085193E /* LaunchScreen.storyboard */,
+				CA966743208E0B480085193E /* Info.plist */,
+				CA96673B208E0B470085193E /* Cyphier.xcdatamodeld */,
+				CA966765208E0E600085193E /* Cyphier-Bridging-Header.h */,
+			);
+			path = Cyphier;
+			sourceTree = "<group>";
+		};
+		CA96674B208E0B480085193E /* CyphierTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA96674C208E0B480085193E /* CyphierTests.swift */,
+				CA96674E208E0B480085193E /* Info.plist */,
+			);
+			path = CyphierTests;
+			sourceTree = "<group>";
+		};
+		CA966756208E0B480085193E /* CyphierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA966757208E0B480085193E /* CyphierUITests.swift */,
+				CA966759208E0B480085193E /* Info.plist */,
+			);
+			path = CyphierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA966730208E0B470085193E /* Cyphier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA96675C208E0B480085193E /* Build configuration list for PBXNativeTarget "Cyphier" */;
+			buildPhases = (
+				CA96672D208E0B470085193E /* Sources */,
+				CA96672E208E0B470085193E /* Frameworks */,
+				CA96672F208E0B470085193E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cyphier;
+			productName = Cyphier;
+			productReference = CA966731208E0B470085193E /* Cyphier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA966747208E0B480085193E /* CyphierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA96675F208E0B480085193E /* Build configuration list for PBXNativeTarget "CyphierTests" */;
+			buildPhases = (
+				CA966744208E0B480085193E /* Sources */,
+				CA966745208E0B480085193E /* Frameworks */,
+				CA966746208E0B480085193E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA96674A208E0B480085193E /* PBXTargetDependency */,
+			);
+			name = CyphierTests;
+			productName = CyphierTests;
+			productReference = CA966748208E0B480085193E /* CyphierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA966752208E0B480085193E /* CyphierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA966762208E0B480085193E /* Build configuration list for PBXNativeTarget "CyphierUITests" */;
+			buildPhases = (
+				CA96674F208E0B480085193E /* Sources */,
+				CA966750208E0B480085193E /* Frameworks */,
+				CA966751208E0B480085193E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA966755208E0B480085193E /* PBXTargetDependency */,
+			);
+			name = CyphierUITests;
+			productName = CyphierUITests;
+			productReference = CA966753208E0B480085193E /* CyphierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA966729208E0B460085193E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Tushar Pandey";
+				TargetAttributes = {
+					CA966730208E0B470085193E = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					CA966747208E0B480085193E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CA966730208E0B470085193E;
+					};
+					CA966752208E0B480085193E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CA966730208E0B470085193E;
+					};
+				};
+			};
+			buildConfigurationList = CA96672C208E0B460085193E /* Build configuration list for PBXProject "Cyphier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA966728208E0B460085193E;
+			productRefGroup = CA966732208E0B470085193E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA966730208E0B470085193E /* Cyphier */,
+				CA966747208E0B480085193E /* CyphierTests */,
+				CA966752208E0B480085193E /* CyphierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA96672F208E0B470085193E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA966742208E0B480085193E /* LaunchScreen.storyboard in Resources */,
+				CA96673F208E0B480085193E /* Assets.xcassets in Resources */,
+				CA96673A208E0B470085193E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA966746208E0B480085193E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA966751208E0B480085193E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA96672D208E0B470085193E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA966768208E0E600085193E /* computing.cpp in Sources */,
+				CA966737208E0B470085193E /* ViewController.swift in Sources */,
+				CA966735208E0B470085193E /* AppDelegate.swift in Sources */,
+				CA96673D208E0B470085193E /* Cyphier.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA966744208E0B480085193E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA96674D208E0B480085193E /* CyphierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA96674F208E0B480085193E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA966758208E0B480085193E /* CyphierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA96674A208E0B480085193E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA966730208E0B470085193E /* Cyphier */;
+			targetProxy = CA966749208E0B480085193E /* PBXContainerItemProxy */;
+		};
+		CA966755208E0B480085193E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA966730208E0B470085193E /* Cyphier */;
+			targetProxy = CA966754208E0B480085193E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA966738208E0B470085193E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA966739208E0B470085193E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA966740208E0B480085193E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA966741208E0B480085193E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA96675A208E0B480085193E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA96675B208E0B480085193E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA96675D208E0B480085193E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cyphier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TusharPandey.Cyphier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cyphier/Cyphier-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA96675E208E0B480085193E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cyphier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TusharPandey.Cyphier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cyphier/Cyphier-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA966760208E0B480085193E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CyphierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TusharPandey.CyphierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cyphier.app/Cyphier";
+			};
+			name = Debug;
+		};
+		CA966761208E0B480085193E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CyphierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TusharPandey.CyphierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cyphier.app/Cyphier";
+			};
+			name = Release;
+		};
+		CA966763208E0B480085193E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CyphierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TusharPandey.CyphierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cyphier;
+			};
+			name = Debug;
+		};
+		CA966764208E0B480085193E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CyphierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TusharPandey.CyphierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cyphier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA96672C208E0B460085193E /* Build configuration list for PBXProject "Cyphier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA96675A208E0B480085193E /* Debug */,
+				CA96675B208E0B480085193E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA96675C208E0B480085193E /* Build configuration list for PBXNativeTarget "Cyphier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA96675D208E0B480085193E /* Debug */,
+				CA96675E208E0B480085193E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA96675F208E0B480085193E /* Build configuration list for PBXNativeTarget "CyphierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA966760208E0B480085193E /* Debug */,
+				CA966761208E0B480085193E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA966762208E0B480085193E /* Build configuration list for PBXNativeTarget "CyphierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA966763208E0B480085193E /* Debug */,
+				CA966764208E0B480085193E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA96673B208E0B470085193E /* Cyphier.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA96673C208E0B470085193E /* Cyphier.xcdatamodel */,
+			);
+			currentVersion = CA96673C208E0B470085193E /* Cyphier.xcdatamodel */;
+			path = Cyphier.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA966729208E0B460085193E /* Project object */;
+}
